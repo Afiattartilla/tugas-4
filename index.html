@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas4</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#">HOME</a>
+            <a href="#">PRODUCT</a>
+            <a href="#">GALLERY</a>
+            <a href="#">BLOG</a>
+            <a href="#">INVENTORY</a>
+        </nav>
+    </header>
+    </div>
+        <div class="wrapper-profile-card">
+            <div class="icon"><img class="img" src="asset/IMG-20221126-WA0000.jpg" alt=""></div>
+                <div id="biodataDisplay" class="profile-card">
+                    <H1 id="namaDisplay">Izhar Afiat tartilla</H1>
+                    <p id="roleDisplay">Frontend Dev</p>
+                    <div>
+                        <button id="toggleButton" type="submit" value="submit" class="btn-btn-primary">EDIT</button>
+                        <button id="resetBtn" type="submit"  class="btn-btn-secondary">RESET</button>
+                    </div>
+                </div>
+                <div id="bio-Data" class="user-card-info">
+                    <p><span>Availability :</span> <span id="avail-Display">fulltime</span></p>
+                    <p><span>Usia :</span><span id="usia-Display"></span></p>
+                    <p><span>Lokasi:</span><span id="lokasi-Display">jakarta</span></p>
+                    <p><span>Pengalaman:</span><span id="pengalaman-Display">pengalaman</span></p>
+                    <p><span>Email:</span><span id="email-Display">udulludell2@gmail.com</span></p>
+                </div>
+        </div>  
+        <div id="formContainer" class="wrapper-input" >
+            <form id="formEditBiodata" class="input-box">
+                <div class="input-box">
+                    <p>Nama</p><input type="text" id="namaInput" placeholder="">
+                </div>
+                <div class="input-box">
+                    <p>Role</p><input type="text" id="roleInput" placeholder="">
+                </div>
+                <div class="input-box">
+                    <p>AVAILABILITY</p><input id="availabilityInput" type="text" placeholder="">
+                </div>
+                <div class="input-box">
+                    <p>Usia</p><input id="usiaInput" type="text" placeholder="">
+                </div>
+                <div class="input-box">
+                   <p>Lokasi</p><input id="lokasiInput" type="text" placeholder="">
+                </div>
+               <div class="input-box">
+                    <p>Pengalaman</p><input id="pengalamanInput" type="text" placeholder="">
+               </div>
+                <div class="input-box">
+                   <p>Email</p><input id="emailInput" type="email" placeholder="">
+                </div>
+            </form>
+            <button id="btn-submit" type="submit" class="btn-input-box"><p>SUBMIT</p></button>
+        </div>
+    </div>
+    <script src="asset/index2.js"></script>    
+</body>
+</html>
